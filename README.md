@@ -7,3 +7,4 @@ npm run dev
 ## memo
 
 - pages router
+- emotion

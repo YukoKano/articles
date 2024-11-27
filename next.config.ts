@@ -5,4 +5,10 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
 };
 
+module.exports = {
+  compiler: {
+    emotion: true,
+  },
+};
+
 export default nextConfig;

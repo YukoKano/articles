@@ -2,6 +2,12 @@
   "extends": [
     "next/core-web-vitals",
     "next/typescript",
-    "plugin:storybook/recommended"
+    "plugin:storybook/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "@next/next/no-css-tags",
+    "@next/next/no-document-import-in-page",
+    "@next/next/no-duplicate-head",
+    "@next/next/no-head-element",
+    "@next/next/no-page-custom-font"
   ]
 }

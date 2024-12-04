@@ -17,13 +17,13 @@ export default function App({ Component, pageProps }: AppProps) {
 
   const toggleMode = () => {
     setMode((prevMode) => (prevMode === "light" ? "dark" : "light"));
-    console.log(mode);
   };
 
   const themeStyles = css`
     background-color: ${mode === "dark" ? "#2e2e2e" : "#fdfdfd"};
     color: ${mode === "dark" ? "#fdfdfd" : "#2e2e2e"};
     min-height: 100vh;
+    line-height: 1.6;
   `;
 
   return (

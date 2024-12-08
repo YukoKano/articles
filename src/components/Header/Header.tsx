@@ -11,6 +11,10 @@ const header = (mode: "light" | "dark") => css`
   justify-content: space-between;
   align-items: center;
   background-color: ${mode === "dark" ? "#5e5e5e" : "#fdfdfd"};
+  border-bottom: 1px solid ${mode === "dark" ? "#fdfdfd" : "#5e5e5e"};
+  position: sticky;
+  top: 0;
+  z-index: 100;
 `;
 
 const modeBox = css`
